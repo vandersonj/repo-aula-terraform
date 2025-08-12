@@ -52,6 +52,3 @@ Importa recursos existentes fora do Terraform para o controle do Terraform.
 
 - `terraform state push`  
   Envia um arquivo de estado local para o backend remoto.
-
-## 10. `terraform import`
-Importa recursos existentes fora do Terraform para o controle do Terraform.

@@ -33,6 +33,7 @@ Gerencia o arquivo de estado do Terraform, permitindo operações como listar, m
 Importa recursos existentes fora do Terraform para o controle do Terraform.
 
 
+
 ### Comandos de Estado do Terraform
 
 - `terraform state list`  

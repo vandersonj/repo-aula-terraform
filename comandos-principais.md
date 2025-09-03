@@ -53,3 +53,23 @@ Importa recursos existentes fora do Terraform para o controle do Terraform.
 
 - `terraform state push`  
   Envia um arquivo de estado local para o backend remoto.
+
+
+## Comandos de Workspace do Terraform
+
+Os workspaces permitem gerenciar múltiplos ambientes (ex: desenvolvimento, produção) usando o mesmo conjunto de configurações.
+
+- `terraform workspace list`  
+  Lista todos os workspaces disponíveis no diretório atual.
+
+- `terraform workspace new <nome>`  
+  Cria um novo workspace com o nome especificado.
+
+- `terraform workspace select <nome>`  
+  Alterna para o workspace especificado.
+
+- `terraform workspace show`  
+  Exibe o nome do workspace atualmente ativo.
+
+- `terraform workspace delete <nome>`  
+  Remove o workspace especificado (não pode ser o workspace atual).
